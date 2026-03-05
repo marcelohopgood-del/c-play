@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+/* background-color:black; */
+height:50px;
+ display:flex;
+ justify-content: space-between;
+ background: linear-gradient(lavender, red) no-repeat;
+ background-image: url("https://miro.medium.com/v2/resize:fit:4800/format:webp/1*1Cfx-KuoRw0uaZGpsdRirQ.jpeg");
+}
+nav>a {
+  color:yellow;
+  text-decoration:none;
+  margin:auto;
+}
+nav a:hover {
+  color: yellow;
+}
+nav a:link {
+  color: orange;
+}
+nav a:active {
+  color: blue;
+}
+nav a:visited {
+  color: white;
+}
+.galeria{
+  width:200px;
+}
